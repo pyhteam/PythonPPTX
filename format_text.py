@@ -72,7 +72,7 @@ def format_text_to_json(data):
 
 # run main
 if __name__ == "__main__":
-    filePath ="D:\\src\\PythonPPTX\\Cov Ntseeg Yexus Phoo Nkauj - Hmoob Dawb.txt"
+    filePath ="D:\\src\\PythonPPTX\\data\\Cov Ntseeg Yexus Phoo Nkauj - Hmoob Dawb.txt"
     try:
         with open(filePath, 'r', encoding='utf-8') as file:
             data = file.read()
@@ -84,12 +84,12 @@ if __name__ == "__main__":
     # save formatted text to file
     with open("formatted_text.txt", "w", encoding='utf-8') as file:
         file.write(formatted_text)
-        print("Formatted text saved to 'formatted_text.txt' successfully.")
+        print("Formatted text saved to 'data\\formatted_text.txt' successfully.")
     
     # save formatted text to JSON
     formatted_json = format_text_to_json(formatted_text)
     with open("formatted_text.json", "w", encoding='utf-8') as file:
         file.write(formatted_json)
-        print("Formatted text saved to 'formatted_text.json' successfully.")
+        print("Formatted text saved to 'data\\formatted_text.json' successfully.")
     print("All done!")
 
