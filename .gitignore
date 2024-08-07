@@ -1,6 +1,6 @@
 
-# .vs/
-# .vscode/
-# node_modules/
-# dist/
-# build/
+.vs/
+.vscode/
+node_modules/
+dist/
+build/
