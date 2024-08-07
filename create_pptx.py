@@ -32,7 +32,7 @@ class PowerPointHelper:
         slide_layout = self.presentation.slide_layouts[5]
         slide = self.presentation.slides.add_slide(slide_layout)
         self.set_background(slide)
-        title = f"{self.show_pptx['BookName']} {self.show_pptx['ChapterNumber']}:{verse['label']}"
+       
         # 1. Bold
         # 2. Italic
         # 3. Bold and Italic
@@ -63,37 +63,29 @@ class PowerPointHelper:
             font_color = RGBColor(255, 255, 255)
             text_align = PP_ALIGN.CENTER
 
+        # add Content
         content = f"{verse['label']}.  {verse['content']}"
-        paragraphs = self.split_text(content, font_size)
-
         textbox = slide.shapes.add_textbox(
-            Inches(0.5), Inches(0.2), Inches(8), Inches(1)
+            Inches(0.2), Inches(1), Inches(9), Inches(8)  # Adjust height to allow for expansion
         )
         text_frame = textbox.text_frame
-        text_frame.word_wrap = True  # Enable word wrap
-        text_frame.auto_size = MSO_AUTO_SIZE.SHAPE_TO_FIT_TEXT  # Auto fit text to shape
-        
-        text_frame.fit_text(
-            font_family=font_family, 
-            max_size=font_size, 
-            bold= font_style in [1, 3, 5, 7],
-            italic= font_style in [2, 3, 6, 7]
-        )
+        text_frame.word_wrap = True
+        text_frame.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE  # Enable auto-sizing
 
-        for paragraph in paragraphs:
-            p = text_frame.add_paragraph()
-            p.text = paragraph
-            p.font.name = font_family
-            p.font.size = font_size
-            p.font.color.rgb = font_color
-            p.font.bold = font_style in [1, 3, 5, 7]
-            p.font.italic = font_style in [2, 3, 6, 7]
-            p.font.underline = font_style in [4, 5, 6, 7]
-            p.alignment = text_align
+        p = text_frame.add_paragraph()
+        p.text = content
+        p.font.name = font_family
+        p.font.size = font_size
+        p.font.color.rgb = font_color
+        p.font.bold = font_style in [1, 3, 5, 7]
+        p.font.italic = font_style in [2, 3, 6, 7]
+        p.font.underline = font_style in [4, 5, 6, 7]
+        p.alignment = text_align
 
-        textbox = slide.shapes.add_textbox(Inches(1), Inches(6.5), Inches(8), Inches(1))
+        #  add Title
+        title = f"{self.show_pptx['BookName']} {self.show_pptx['ChapterNumber']}:{verse['label']}"
+        textbox = slide.shapes.add_textbox(Inches(1), Inches(-0.3), Inches(8), Inches(1))
         text_frame = textbox.text_frame
-
         p = text_frame.add_paragraph()
         p.text = title
         p.font.name = font_family
@@ -101,10 +93,9 @@ class PowerPointHelper:
         p.font.bold = font_style in [1, 3, 5, 7]
         p.font.italic = font_style in [2, 3, 6, 7]
         p.font.underline = font_style in [4, 5, 6, 7]
-
-        p.font.color.rgb = RGBColor(0, 0, 255)
+        p.font.color.rgb = RGBColor(150, 150, 57)
         p.alignment = PP_ALIGN.CENTER
-    
+
     def set_background(self, slide):
         if self.show_pptx["Config"] and self.show_pptx["Config"].get("ImagePath"):
             slide.shapes.add_picture(
@@ -116,9 +107,9 @@ class PowerPointHelper:
             )
             return
 
-        slide_width = self.presentation.slide_width or 1920
-        slide_height = self.presentation.slide_height or 1080
-        img = Image.new("RGB", (int(slide_width), int(slide_height)), color="black")  
+        slide_width =  1920
+        slide_height = 1080
+        img = Image.new("RGB", (int(slide_width), int(slide_height)), color="black")
         img_path = "temp_background.png"
         img.save(img_path)
         slide.shapes.add_picture(
@@ -129,20 +120,6 @@ class PowerPointHelper:
             self.presentation.slide_height,
         )
         os.remove(img_path)
-
-    def split_text(self, text, font_size):
-        max_chars_per_line = 60
-        wrapped_text = textwrap.wrap(text, width=max_chars_per_line)
-        paragraphs = []
-        paragraph = ""
-        for line in wrapped_text:
-            if len(paragraph) + len(line) > max_chars_per_line:
-                paragraphs.append(paragraph)
-                paragraph = line
-            else:
-                paragraph += " " + line if paragraph else line
-        paragraphs.append(paragraph)
-        return paragraphs
 
 
 if __name__ == "__main__":
