@@ -97,7 +97,7 @@ class PowerPointHelper:
         p.alignment = PP_ALIGN.CENTER
 
     def set_background(self, slide):
-        if self.show_pptx["Config"] and self.show_pptx["Config"].get("ImagePath"):
+        if self.show_pptx["Config"] and self.show_pptx["Config"].get("ImagePath") and os.path.isfile(self.show_pptx["Config"]["ImagePath"]) and self.show_pptx["Config"]["ImagePath"] !="Choose Image":
             slide.shapes.add_picture(
                 self.show_pptx["Config"]["ImagePath"],
                 0,
