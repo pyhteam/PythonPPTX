@@ -31,7 +31,7 @@ class PowerPointHelper:
         slide_layout = self.presentation.slide_layouts[5]
         slide = self.presentation.slides.add_slide(slide_layout)
         self.set_background(slide)
-       
+
         # 1. Bold
         # 2. Italic
         # 3. Bold and Italic
@@ -43,6 +43,7 @@ class PowerPointHelper:
             font_family = self.show_pptx["Config"].get("FontFamily", "Arial")
             font_size = Pt(self.show_pptx["Config"].get("FontSize", 40))
             font_style = self.show_pptx["Config"].get("FontStyle", 1)
+            type_show = self.show_pptx["Config"].get("TypeShow", 0)
             if self.show_pptx["Config"].get("Color"):
                 font_color = RGBColor(
                     self.show_pptx["Config"]["Color"]["R"],
@@ -65,7 +66,10 @@ class PowerPointHelper:
         # add Content
         content = f"{verse['label']}.  {verse['content']}"
         textbox = slide.shapes.add_textbox(
-            Inches(0.2), Inches(1), Inches(9.1), Inches(6)  # Adjust height to allow for expansion
+            Inches(0.2),
+            Inches(1),
+            Inches(9.1),
+            Inches(6),  # Adjust height to allow for expansion
         )
         text_frame = textbox.text_frame
         text_frame.word_wrap = True
@@ -82,13 +86,22 @@ class PowerPointHelper:
         p.alignment = text_align
 
         #  add Title
-        title = f"{self.show_pptx['BookName']} {self.show_pptx['ChapterNumber']}:{verse['label']}"
-        textbox = slide.shapes.add_textbox(Inches(1), Inches(-0.3), Inches(8), Inches(1))
+
+        if type_show == 0:
+            title = f"{self.show_pptx['BookName']} {self.show_pptx['ChapterNumber']}:{verse['label']}"
+        if type_show == 1:
+            title = f"{self.show_pptx['ChapterNumber']} {self.show_pptx['BookName']}"
+
+        textbox = slide.shapes.add_textbox(
+            Inches(1), Inches(-0.3), Inches(8), Inches(1)
+        )
+        text_frame.word_wrap = True
+        text_frame.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE
         text_frame = textbox.text_frame
         p = text_frame.add_paragraph()
         p.text = title
         p.font.name = font_family
-        p.font.size = font_size
+        p.font.size = Pt(40)
         p.font.bold = font_style in [1, 3, 5, 7]
         p.font.italic = font_style in [2, 3, 6, 7]
         p.font.underline = font_style in [4, 5, 6, 7]
@@ -96,7 +109,12 @@ class PowerPointHelper:
         p.alignment = PP_ALIGN.CENTER
 
     def set_background(self, slide):
-        if self.show_pptx["Config"] and self.show_pptx["Config"].get("ImagePath") and os.path.isfile(self.show_pptx["Config"]["ImagePath"]) and self.show_pptx["Config"]["ImagePath"] !="Choose Image":
+        if (
+            self.show_pptx["Config"]
+            and self.show_pptx["Config"].get("ImagePath")
+            and os.path.isfile(self.show_pptx["Config"]["ImagePath"])
+            and self.show_pptx["Config"]["ImagePath"] != "Choose Image"
+        ):
             slide.shapes.add_picture(
                 self.show_pptx["Config"]["ImagePath"],
                 0,
@@ -106,9 +124,9 @@ class PowerPointHelper:
             )
             return
 
-        slide_width =  1920
+        slide_width = 1920
         slide_height = 1080
-        img = Image.new("RGB", (int(slide_width), int(slide_height)), color="black")
+        img = Image.new("RGB", (int(slide_width), int(slide_height)), color="white")
         img_path = "temp_background.png"
         img.save(img_path)
         slide.shapes.add_picture(

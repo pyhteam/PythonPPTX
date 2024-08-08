@@ -9965,7 +9965,17 @@
             {
                 "song_id": 365,
                 "id": 1,
-                "content": "Xyoo tshab tawmtuaj koj puas zoo sab? Xyoo tshab tawmtuaj koj puas zoo sab? Lub xyoo laug taabtom dlhau moog lawm Xyoo tshab tawmtuaj koj puas zoo sab? Ca peb txhua tug muaj kev zoo sab Vim lub xyoo laug dlhau moog lawm tag Ca peb txhua tug ua Vaajtswv tsaug Xyoo tshab tawmtuaj lub xyoo laug xaus Xyoo tshab tawmtuaj koj puas zoo sab? Xyoo tshab tawmtuaj koj puas zoo sab? Lub xyoo laug taabtom dlhau moog lawm Xyoo tshab tawmtuaj koj puas zoo sab?"
+                "content": "Xyoo tshab tawmtuaj koj puas zoo sab? Xyoo tshab tawmtuaj koj puas zoo sab? Lub xyoo laug taabtom dlhau moog lawm Xyoo tshab tawmtuaj koj puas zoo sab?"
+            },
+            {
+                "song_id": 365,
+                "id": 2,
+                "content": "Ca peb txhua tug muaj kev zoo sab Vim lub xyoo laug dlhau moog lawm tag Ca peb txhua tug ua Vaajtswv tsaug Xyoo tshab tawmtuaj lub xyoo laug xaus"
+            },
+            {
+                "song_id": 365,
+                "id": 3,
+                "content": "Xyoo tshab tawmtuaj koj puas zoo sab? Xyoo tshab tawmtuaj koj puas zoo sab? Lub xyoo laug taabtom dlhau moog lawm Xyoo tshab tawmtuaj koj puas zoo sab?"
             }
         ]
     },
@@ -10117,17 +10127,32 @@
             {
                 "song_id": 371,
                 "id": 1,
-                "content": "Vaajtswv teem ibnub tseg ca Nub ntawd yog Vaajtswv nub Vaajtswv Txujlug has tseg tas Nub ntawd yog nub dlawbhuv Cov ntseeg Vaajtswv yuav ncuntsoov Nub ntawd tsi xob moog khwv Nub ntawd yog nub koob nub moov Yog nub pehawm Vaajtswv."
+                "content": "Vaajtswv teem ibnub tseg ca Nub ntawd yog Vaajtswv nub Vaajtswv Txujlug has tseg tas Nub ntawd yog nub dlawbhuv."
             },
             {
                 "song_id": 371,
                 "id": 2,
-                "content": "Nub ntawd yog nub dlawb nub huv Nub ntawd muaj kev kaaj ci Nub ntawd Vaajtswv kuas txhua tug Cale zoo sab luagntxhi Nub ntawd cov kws yug dlua tshab Yuavtsum qhuas Vaaj Leejtxiv Yuavtsum qhuas Vaaj Leejtub hab Yuavtsum qhuas Vaaj Ntsujplig."
+                "content": "Cov ntseeg Vaajtswv yuav ncuntsoov Nub ntawd tsi xob moog khwv Nub ntawd yog nub koob nub moov Yog nub pehawm Vaajtswv."
             },
             {
                 "song_id": 371,
                 "id": 3,
-                "content": "Nub ntawd Vaajtswv npaaj koobmoov Foom pub rua txhua-txhua tug Nub ntawd tsi taag cog qoobloo Vaajtswv foom koobmoov pub Nub ntawd Vaajtswv ca peb su Ca peb ua Vaajtswv tsaug Nub ntawd tsi khwv los txaus noj Tsi ua los yeej muaj haus, Amees."
+                "content": "Nub ntawd yog nub dlawb nub huv Nub ntawd muaj kev kaaj ci Nub ntawd Vaajtswv kuas txhua tug Cale zoo sab luagntxhi."
+            },
+            {
+                "song_id": 371,
+                "id": 4,
+                "content": "Nub ntawd cov kws yug dlua tshab Yuavtsum qhuas Vaaj Leejtxiv Yuavtsum qhuas Vaaj Leejtub hab Yuavtsum qhuas Vaaj Ntsujplig."
+            },
+            {
+                "song_id": 371,
+                "id": 5,
+                "content": "Nub ntawd Vaajtswv npaaj koobmoov Foom pub rua txhua-txhua tug Nub ntawd tsi taag cog qoobloo Vaajtswv foom koobmoov pub."
+            },
+            {
+                "song_id": 371,
+                "id": 6,
+                "content": "Nub ntawd Vaajtswv ca peb su Ca peb ua Vaajtswv tsaug Nub ntawd tsi khwv los txaus noj Tsi ua los yeej muaj haus, Amees."
             }
         ]
     },
@@ -10333,21 +10358,36 @@
             {
                 "song_id": 379,
                 "id": 1,
-                "content": "Tshuav Ceebtsheej Ntuj tau zoo Nyob tuaj tomntej Cov kws nyob Ceebtsheej Nroog Tsi raug txomnyem Puab hunkauj suab nrov ntxhe Yog lub suab kws nrov lomzem Puab qhuas Vaajtswv kawgnkaus Hab ua Nwg tsaug."
+                "content": "Tshuav Ceebtsheej Ntuj tau zoo Nyob tuaj tomntej Cov kws nyob Ceebtsheej Nroog Tsi raug txomnyem."
             },
             {
                 "song_id": 379,
                 "id": 2,
-                "content": "Lug nyob huv qhov pumkev Lug ntseeg Yexus Tswv Yexus yog Txuj Kev Moog Ceebtsheej Ntuj Tswv Yexus yog Qhov Tseeb Cawm tuabneeg nplajteb txhua leej Tswv Yexus yog Txujsa Rua tug ntseeg tag."
+                "content": "Puab hunkauj suab nrov ntxhe Yog lub suab kws nrov lomzem Puab qhuas Vaajtswv kawgnkaus Hab ua Nwg tsaug."
             },
             {
                 "song_id": 379,
                 "id": 3,
-                "content": "Tswv Yexus cog lug tseg Rua tug kws ntseeg Nwg moog ua vaaj ua tsev Ca sau Ceebtsheej Nwg yuav nqeg rov lug coj Cov kws ntseeg moog nrug Nwg nyob Cov ntseeg yuav nrug Yexus Nyob Ceebtsheej Ntuj."
+                "content": "Lug nyob huv qhov pumkev Lug ntseeg Yexus Tswv Yexus yog Txuj Kev Moog Ceebtsheej Ntuj."
             },
             {
                 "song_id": 379,
                 "id": 4,
+                "content": "Tswv Yexus yog Qhov Tseeb Cawm tuabneeg nplajteb txhua leej Tswv Yexus yog Txujsa Rua tug ntseeg tag."
+            },
+            {
+                "song_id": 379,
+                "id": 5,
+                "content": "Tswv Yexus cog lug tseg Rua tug kws ntseeg Nwg moog ua vaaj ua tsev Ca sau Ceebtsheej."
+            },
+            {
+                "song_id": 379,
+                "id": 6,
+                "content": "Nwg yuav nqeg rov lug coj Cov kws ntseeg moog nrug Nwg nyob Cov ntseeg yuav nrug Yexus Nyob Ceebtsheej Ntuj."
+            },
+            {
+                "song_id": 379,
+                "id": 7,
                 "content": "Lub nroog kws tsi txawj qub Tsi txawj puagntsoog Yog lub nroog Ceebtsheej Ntuj Qhov chaw tau zoo Lub nroog nyob ruaj nyob khov Tsi txawj puag hab tsi txawj pob Nroog Yeluxalees tshab Mas ci ntsaa-ab."
             }
         ]
@@ -10397,11 +10437,16 @@
             {
                 "song_id": 381,
                 "id": 3,
-                "content": "Yug vaam yug tug zug Moog tsi txug Ntuj Ceebtsheej Yuav tau vaam Yexus Tug kws  yog yug tug Cawmseej Yug nyob huv nplajteb Yug tsuas nyob ibntus xwb Thaus dlhau lub nplajteb Yug yuav moog ntsib Vaajtswv."
+                "content": "Yug vaam yug tug zug Moog tsi txug Ntuj Ceebtsheej Yuav tau vaam Yexus Tug kws  yog yug tug Cawmseej."
             },
             {
                 "song_id": 381,
                 "id": 4,
+                "content": "Yug nyob huv nplajteb Yug tsuas nyob ibntus xwb Thaus dlhau lub nplajteb Yug yuav moog ntsib Vaajtswv."
+            },
+            {
+                "song_id": 381,
+                "id": 5,
                 "content": "Thaustwg Tswv Yexus Koj maam nqeg rov lug dlua Lug paab kuas kuv dlim Kev txomnyem hab kev quajntsuag Kuv tsaug tsi muaj zug Thov Koj lug paab txhawb kuv Kuv casab ntsoov tas Tswv Yexus yuav paab kuv."
             }
         ]
@@ -10414,17 +10459,32 @@
             {
                 "song_id": 382,
                 "id": 1,
-                "content": "Yexus moog tu chaw tseg Ca puag sau ntuj Ceebtsheej Nwg Phoo Ntawv qha has tas Nwg yuav lug tog cov ntseeg Peb casab tshuav tsi ntev Peb yuav nrug Yexus nyob Yexus yuav rov lug dlua Ca peb ua sab ntev tog."
+                "content": "Yexus moog tu chaw tseg Ca puag sau ntuj Ceebtsheej Nwg Phoo Ntawv qha has tas Nwg yuav lug tog cov ntseeg."
             },
             {
                 "song_id": 382,
                 "id": 2,
-                "content": "Yexus qha tseg has tas Kuv lub tsev muaj ntau chaav Zoo nkauj kawg txaussab kawg Kuv lub tsev yeej zoo tshaaj Tsi muaj tuabneeg muaj mob Tsi muaj tuabneeg muaj nkeeg Tsi muaj quaj tsi muaj pluag Tsuas nyob qhuas tug Cawmseej."
+                "content": "Peb casab tshuav tsi ntev Peb yuav nrug Yexus nyob Yexus yuav rov lug dlua Ca peb ua sab ntev tog."
             },
             {
                 "song_id": 382,
                 "id": 3,
-                "content": "Tej txuj kev sau Ceebtsheej Luas muab kub coj lug pua Tej lub tsev nyob khovkho Tsi muaj iblub puamtsuaj Tsi muaj leejtwg tawsteeb Tswv Yexus ci ntsaa-ab Cov tuabneegkws moog nyob Yog cov kws tau txujsa."
+                "content": "Yexus qha tseg has tas Kuv lub tsev muaj ntau chaav Zoo nkauj kawg txaussab kawg Kuv lub tsev yeej zoo tshaaj."
+            },
+            {
+                "song_id": 382,
+                "id": 4,
+                "content": "Tsi muaj tuabneeg muaj mob Tsi muaj tuabneeg muaj nkeeg Tsi muaj quaj tsi muaj pluag Tsuas nyob qhuas tug Cawmseej."
+            },
+            {
+                "song_id": 382,
+                "id": 5,
+                "content": "Tej txuj kev sau Ceebtsheej Luas muab kub coj lug pua Tej lub tsev nyob khovkho Tsi muaj iblub puamtsuaj."
+            },
+            {
+                "song_id": 382,
+                "id": 6,
+                "content": "Tsi muaj leejtwg tawsteeb Tswv Yexus ci ntsaa-ab Cov tuabneegkws moog nyob Yog cov kws tau txujsa."
             }
         ]
     },
@@ -10795,7 +10855,12 @@
             {
                 "song_id": 395,
                 "id": 1,
-                "content": "Vaajtswv yog tug Tswv Yug Zoo Nwg tsomkwm kuv txhua caijnyoog Nwg coj kuv moog rua nraag taj Nraag zaub mog hab paag dlejntshab Kuv tsi ntshaw ibyaam dlaabtsi Txhua yaamtsaav kuv tub muaj txhij Vaajtswv pub rua kuv dlawb-dlawb Kuv muaj txhij, kuv txha tsi ntshaw."
+                "content": "Vaajtswv yog tug Tswv Yug Zoo Nwg tsomkwm kuv txhua caijnyoog Nwg coj kuv moog rua nraag taj Nraag zaub mog hab paag dlejntshab."
+            },
+            {
+                "song_id": 395,
+                "id": 2,
+                "content": "Kuv tsi ntshaw ibyaam dlaabtsi Txhua yaamtsaav kuv tub muaj txhij Vaajtswv pub rua kuv dlawb-dlawb Kuv muaj txhij, kuv txha tsi ntshaw."
             }
         ]
     },
@@ -10807,7 +10872,17 @@
             {
                 "song_id": 396,
                 "id": 1,
-                "content": "Vaajtswv kaav txhua lub tebchaws Nwg tuableeg xwb txha yog Vaajtswv Nwg kaav txhua yaam Kws nyob sau nruabntug Hab huv dlej havtxwv Vaajtswv tso Nwg Leejtub Yexus Nqeglug cawm noobneej huv qaabntuj Nwg lug dlaws noobneej lub txim Vim Nwg yog Vaajtswv Vim Nwg yog Vaajtswv Yexus yog Vaajtswv."
+                "content": "Vaajtswv kaav txhua lub tebchaws Nwg tuableeg xwb txha yog Vaajtswv Nwg kaav txhua yaam Kws nyob sau nruabntug."
+            },
+            {
+                "song_id": 396,
+                "id": 2,
+                "content": "Hab huv dlej havtxwv Vaajtswv tso Nwg Leejtub Yexus Nqeglug cawm noobneej huv qaabntuj Nwg lug dlaws noobneej lub txim."
+            },
+            {
+                "song_id": 396,
+                "id": 3,
+                "content": "Vim Nwg yog Vaajtswv Vim Nwg yog Vaajtswv Yexus yog Vaajtswv."
             }
         ]
     },
@@ -10819,7 +10894,22 @@
             {
                 "song_id": 397,
                 "id": 1,
-                "content": "Nwg lub npe zoo kawgnkaus Nwg lub npe zoo kawgnkaus Nwg lub npe zoo kawgnkaus Tug Tswv Yexus Nwg tsim nplajteb lub ntuj Tsim txhua yaamtsaav taagnrho Nwg lub npe zoo kawgnkaus Tug Tswv Yexus Nwg yog tug Tswv yug zoo Yog lub pobzeb ruajkhov Yog Fuabtais muaj Fwjchim Txhuscaug ntawm Nwg xubndlag Ua Nwg tsaug taag yug sab Nwg lub npe zoo kawgnkaus Tug Tswv Yexus."
+                "content": "Nwg lub npe zoo kawgnkaus Nwg lub npe zoo kawgnkaus Nwg lub npe zoo kawgnkaus."
+            },
+            {
+                "song_id": 397,
+                "id": 2,
+                "content": "Tug Tswv Yexus Nwg tsim nplajteb lub ntuj Tsim txhua yaamtsaav taagnrho Nwg lub npe zoo kawgnkaus."
+            },
+            {
+                "song_id": 397,
+                "id": 3,
+                "content": "Tug Tswv Yexus Nwg yog tug Tswv yug zoo Yog lub pobzeb ruajkhov Yog Fuabtais muaj Fwjchim."
+            },
+            {
+                "song_id": 397,
+                "id": 4,
+                "content": "Txhuscaug ntawm Nwg xubndlag Ua Nwg tsaug taag yug sab Nwg lub npe zoo kawgnkaus Tug Tswv Yexus."
             }
         ]
     },
@@ -10909,7 +10999,12 @@
             {
                 "song_id": 402,
                 "id": 1,
-                "content": "Qhuas Vaaj Leejtxiv Qhuas Vaajeejtub Hab qhuas Vaaj Ntsujplig Nwg Nyob thau u Nwgnyob nwgnuav Hab Nwg nyob ibtxhis Haleluyas qhuas Nwg, Qhuas Nwg Vim Nwg yog Vaajtswv Haleluyas qhuas Nwg, Qhuas Nwg Vim Nwg yog Vaajtswv."
+                "content": "Qhuas Vaaj Leejtxiv Qhuas Vaajeejtub Hab qhuas Vaaj Ntsujplig Nwg Nyob thau u."
+            },
+            {
+                "song_id": 402,
+                "id": 2,
+                "content": "Nwgnyob nwgnuav Hab Nwg nyob ibtxhis Haleluyas qhuas Nwg, Qhuas Nwg Vim Nwg yog Vaajtswv Haleluyas qhuas Nwg, Qhuas Nwg Vim Nwg yog Vaajtswv."
             }
         ]
     },
@@ -10982,7 +11077,12 @@
             {
                 "song_id": 406,
                 "id": 1,
-                "content": "Kev txhawbnqaa Vaajtswv Yog cov ntseeg ndlagtug Cov ntseeg yuav najnub qhuas tug Tswv Yexus Kev ua Vaajtswv tsaug Yuav ua moog ibtxhis Cov ntseeg yuav ua Vaajtswv tsaug moog ibtxhis Thaus lub ntuj hab lub nplajteb Nrug txhua yaam tsaav puamtsuaj moog taag Tabsis tshuav ibyaam Yog kev txhawbnqaa Vaajtswv Cov ntseeg yuav txhawbnqaa Vaajtswv."
+                "content": "Kev txhawbnqaa Vaajtswv Yog cov ntseeg ndlagtug Cov ntseeg yuav najnub qhuas tug Tswv Yexus Kev ua Vaajtswv tsaug Yuav ua moog ibtxhis."
+            },
+            {
+                "song_id": 406,
+                "id": 2,
+                "content": "Cov ntseeg yuav ua Vaajtswv tsaug moog ibtxhis Thaus lub ntuj hab lub nplajteb Nrug txhua yaam tsaav puamtsuaj moog taag Tabsis tshuav ibyaam Yog kev txhawbnqaa Vaajtswv Cov ntseeg yuav txhawbnqaa Vaajtswv."
             }
         ]
     },
@@ -11006,7 +11106,17 @@
             {
                 "song_id": 408,
                 "id": 1,
-                "content": "Vaajtswv tau tso Yexus lug paab kuv Ua Vaajtswv tsaug Yexus lug dlaws kuv lub txim povtseg Ua Vaajtswv tsaug Kuv paab tsi tau kuv dlim Yexus xwb txha paab tau Vim le nuav kuv txha ua Vaajtswv tsaug. Cale ua, cale ua Vaajtswv tsaug ua Vaajtswv tsaug Cale ua, cale ua Vaajtswv tsaug Ua Vaajtswv tsaug Yexus tuag hab sawv rov lug Muaj txujsa moog nrug Vaajtswv nyob Ca txhua tug zoo sab lug ua Vaajtswv tsaug."
+                "content": "Vaajtswv tau tso Yexus lug paab kuv Ua Vaajtswv tsaug Yexus lug dlaws kuv lub txim povtseg Ua Vaajtswv tsaug Kuv paab tsi tau kuv dlim."
+            },
+            {
+                "song_id": 408,
+                "id": 2,
+                "content": "Yexus xwb txha paab tau Vim le nuav kuv txha ua Vaajtswv tsaug. Cale ua, cale ua Vaajtswv tsaug ua Vaajtswv tsaug Cale ua, cale ua Vaajtswv tsaug Ua Vaajtswv tsaug."
+            },
+            {
+                "song_id": 408,
+                "id": 3,
+                "content": "Yexus tuag hab sawv rov lug Muaj txujsa moog nrug Vaajtswv nyob Ca txhua tug zoo sab lug ua Vaajtswv tsaug."
             }
         ]
     },
@@ -11018,7 +11128,12 @@
             {
                 "song_id": 409,
                 "id": 1,
-                "content": "Txhua yaamtsaav nyob nplajteb Txhua yaamtsaav nyob sauntuj Yeejyuav lug txhuscaug pe Tug Cawmseej Tswv Yexus Txhua lub ncauj, txhua tug nplaig Yuav thoojtxhij qhuas Vaajtswv Has tas, \"Peb tug Fuabtais Peb txhuscaug pe Koj xwb.\""
+                "content": "Txhua yaamtsaav nyob nplajteb Txhua yaamtsaav nyob sauntuj Yeejyuav lug txhuscaug pe Tug Cawmseej Tswv Yexus."
+            },
+            {
+                "song_id": 409,
+                "id": 2,
+                "content": "Txhua lub ncauj, txhua tug nplaig Yuav thoojtxhij qhuas Vaajtswv Has tas, \"Peb tug Fuabtais Peb txhuscaug pe Koj xwb.\""
             }
         ]
     },
@@ -11104,7 +11219,12 @@
             {
                 "song_id": 412,
                 "id": 1,
-                "content": "Lub zug kws tsi paub qaug Yog Vaajtswv lub zug Yog Vaajtswv lub zug Tug kws togntsoov Vaajtswv Nwg yuav tsi quagzug Nwg yuav tsi qaugzug Nwg yuav muaj zug hab nthuavtis Yaa tau ibyaam le tug dlaav Nwg yuav muaj zug dlha taug kev Tsi tsaugleeg ncetoj nqeghaav Lub zug kws tsi paub qaug Yag Vaajtswv lub zug Yog Vaajtswv lub zug."
+                "content": "Lub zug kws tsi paub qaug Yog Vaajtswv lub zug Yog Vaajtswv lub zug Tug kws togntsoov Vaajtswv Nwg yuav tsi quagzug Nwg yuav tsi qaugzug."
+            },
+            {
+                "song_id": 412,
+                "id": 2,
+                "content": "Nwg yuav muaj zug hab nthuavtis Yaa tau ibyaam le tug dlaav Nwg yuav muaj zug dlha taug kev Tsi tsaugleeg ncetoj nqeghaav Lub zug kws tsi paub qaug Yag Vaajtswv lub zug Yog Vaajtswv lub zug."
             }
         ]
     },
@@ -11128,7 +11248,12 @@
             {
                 "song_id": 414,
                 "id": 1,
-                "content": "Ca peb txhawbnqaa Vaajtswv lub npe tsimtxaj Vaajtswv yog peb tug Cawmseej Ca peb qhuas tug kws cawm tau peb txujsa Ca peb qhuas Vaajtswv tuableeg Vaajtswv lub npe muaj Fwjchim Dlaws tau noobneej lub txim Vaajtswv lub npe muaj meejmom Txaus suavdlawg lug vaamkhov Ca peb txhawbnqaa Vaajtswv lub npe tsimtxaj Vaajtswv yog peb tug Cawmseej."
+                "content": "Ca peb txhawbnqaa Vaajtswv lub npe tsimtxaj Vaajtswv yog peb tug Cawmseej Ca peb qhuas tug kws cawm tau peb txujsa Ca peb qhuas Vaajtswv tuableeg Vaajtswv lub npe muaj Fwjchim Dlaws tau noobneej lub txim."
+            },
+            {
+                "song_id": 414,
+                "id": 2,
+                "content": "Vaajtswv lub npe muaj meejmom Txaus suavdlawg lug vaamkhov Ca peb txhawbnqaa Vaajtswv lub npe tsimtxaj Vaajtswv yog peb tug Cawmseej."
             }
         ]
     },
@@ -11140,7 +11265,12 @@
             {
                 "song_id": 415,
                 "id": 1,
-                "content": "Vaaj Ntsujplig muab txuj kev zoo sab Coj lug pub tug kws yug dlua tshab Vaaj Ntsujplij muab txuj kev ywjpheej Coj lug pub rua txhua tug kws ntseeg Vaaj Ntsujplig muab laajlim tswvyim Coj lug pub rua cov ntseeg tau siv Vaaj Ntsujplig qha cov ntseeg txawj fwm Hab txawj lug txhuscaug pe Vaajtswv."
+                "content": "Vaaj Ntsujplig muab txuj kev zoo sab Coj lug pub tug kws yug dlua tshab Vaaj Ntsujplij muab txuj kev ywjpheej Coj lug pub rua txhua tug kws ntseeg."
+            },
+            {
+                "song_id": 415,
+                "id": 2,
+                "content": "Vaaj Ntsujplig muab laajlim tswvyim Coj lug pub rua cov ntseeg tau siv Vaaj Ntsujplig qha cov ntseeg txawj fwm Hab txawj lug txhuscaug pe Vaajtswv."
             }
         ]
     },
@@ -11152,7 +11282,12 @@
             {
                 "song_id": 416,
                 "id": 1,
-                "content": "Kuv qhovmuag tsi tau pum Dlua Vaajtswv ibzag le Tabsis Vaajtswv nyob huv Kuv lub sab, Kuv lub sab Kuv tsi tau nov dlua Yexus lub suab Ibzag le tabsis kuv lub neej tau Yug dlua tshab, Yug dlua tshab Kuv pum tsi tau Vaaj Ntsujplig Tug Dlawbhuv hab Xuas teg kov tsi raug Tabsis kuv muab lub sab rua Yexus tswj Kuv yuav pum Vaajtswv."
+                "content": "Kuv qhovmuag tsi tau pum Dlua Vaajtswv ibzag le Tabsis Vaajtswv nyob huv Kuv lub sab, Kuv lub sab Kuv tsi tau nov dlua Yexus lub suab Ibzag le tabsis kuv lub neej tau."
+            },
+            {
+                "song_id": 416,
+                "id": 2,
+                "content": "Yug dlua tshab, Yug dlua tshab Kuv pum tsi tau Vaaj Ntsujplig Tug Dlawbhuv hab Xuas teg kov tsi raug Tabsis kuv muab lub sab rua Yexus tswj Kuv yuav pum Vaajtswv."
             }
         ]
     },
@@ -11217,7 +11352,12 @@
             {
                 "song_id": 421,
                 "id": 1,
-                "content": "Koj muaj fwjchim, Koj muaj fwjchim Vaajtswv Koj muaj fwjchim Kuv lub ncauj qhuas Koj Kuv txhuscaug pe Koj Hab ua rua Koj tau ntsejmuag Kuv paub has tas Koj tsim lub ntuj hab lub nplajteb Tsim ibpuas yaamtsaav huvsi Koj tau tsim tej nuav Kuas suavdlawg paub tas Vaajtswv Koj yeej muaj fwjchim."
+                "content": "Koj muaj fwjchim, Koj muaj fwjchim Vaajtswv Koj muaj fwjchim Kuv lub ncauj qhuas Koj Kuv txhuscaug pe Koj Hab ua rua Koj tau ntsejmuag."
+            },
+            {
+                "song_id": 421,
+                "id": 2,
+                "content": "Kuv paub has tas Koj tsim lub ntuj hab lub nplajteb Tsim ibpuas yaamtsaav huvsi Koj tau tsim tej nuav Kuas suavdlawg paub tas Vaajtswv Koj yeej muaj fwjchim."
             }
         ]
     },
@@ -11266,7 +11406,17 @@
             {
                 "song_id": 423,
                 "id": 1,
-                "content": "Ua Vaajtswv tsaug, ua Vaajtswv tsaug Tswv Yexus yog tug muaj fwjchim Ua Vaajtswv tsaug, ua Vaajtswv tsaug Tswv Yexus lug paab tau kuv dlim Yaav thau-u kuv lub neej Nyob huv txuj kev tsausntuj Vaajtswv Ntuj txha le tso Tswv Yexus lug paab kuv Ua Vaajtswv tsaug, ua Vaajtswv tsaug Tswv Yexus yog tug muaj fwjchim Ua Vaajtswv tsaug, ua Vaajtswv tsaug Tswv Yexus lug paab tau kuv dlim."
+                "content": "Ua Vaajtswv tsaug, ua Vaajtswv tsaug Tswv Yexus yog tug muaj fwjchim Ua Vaajtswv tsaug, ua Vaajtswv tsaug Tswv Yexus lug paab tau kuv dlim Yaav thau-u kuv lub neej."
+            },
+            {
+                "song_id": 423,
+                "id": 2,
+                "content": "Nyob huv txuj kev tsausntuj Vaajtswv Ntuj txha le tso Tswv Yexus lug paab kuv."
+            },
+            {
+                "song_id": 423,
+                "id": 3,
+                "content": "Ua Vaajtswv tsaug, ua Vaajtswv tsaug Tswv Yexus yog tug muaj fwjchim Ua Vaajtswv tsaug, ua Vaajtswv tsaug Tswv Yexus lug paab tau kuv dlim."
             }
         ]
     },
@@ -11300,7 +11450,12 @@
             {
                 "song_id": 425,
                 "id": 1,
-                "content": "Kuv zoo sab kawg, kuv zoo sab kawg Nubnua kuv zoo sab kawg Vaajtswv tub sau kuv lub npe ca Huv Vaajtswv Phoo Ntawv lawm. Vim yog kuv ntseeg, vim yog kuv ntseeg Hab casab rua tug Cawmseej Kuv zoo sab heev, kuv zoo sab heev Vim kuv muaj npe nyob Ceebtsheej."
+                "content": "Kuv zoo sab kawg, kuv zoo sab kawg Nubnua kuv zoo sab kawg Vaajtswv tub sau kuv lub npe ca Huv Vaajtswv Phoo Ntawv lawm."
+            },
+            {
+                "song_id": 425,
+                "id": 2,
+                "content": "Vim yog kuv ntseeg, vim yog kuv ntseeg Hab casab rua tug Cawmseej Kuv zoo sab heev, kuv zoo sab heev Vim kuv muaj npe nyob Ceebtsheej."
             }
         ]
     },
@@ -11372,117 +11527,219 @@
             {
                 "song_id": 431,
                 "id": 1,
-                "content": "Yexus yog txuj kev hab yog qhovtseeb tag Nwg tuableeg txha le yog txujsa Yexus yog tug zaam tau noobneej lub txim Nwg tuableeg paab tau noobneej dlim. Saibntsoov tug Tswv Yexus Txha yuav moog txug sau ntuj Ntseeg Yexus tuableeg xwb Txha yuav moog txug Vaajtswv."
+                "content": "Yexus yog txuj kev hab yog qhovtseeb tag Nwg tuableeg txha le yog txujsa Yexus yog tug zaam tau noobneej lub txim Nwg tuableeg paab tau noobneej dlim."
             },
             {
                 "song_id": 431,
                 "id": 2,
-                "content": "________________"
+                "content": "Saibntsoov tug Tswv Yexus Txha yuav moog txug sau ntuj Ntseeg Yexus tuableeg xwb Txha yuav moog txug Vaajtswv."
+            }
+        ]
+    },
+    {
+        "id": 432,
+        "label": 436,
+        "name": "NPLAJTEB VAAJTSWV TSIMTSEG (20 NQAI)",
+        "verses": [
+            {
+                "song_id": 432,
+                "id": 1,
+                "content": "Nplajteb Vaajtswv tsim tseg Txheejtshoj nyob thaus u lug Vaajtswv tsim tau lub nplajteb nuav Nwg tsim muaj fuab muaj cua"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
+                "id": 2,
+                "content": "Nwg tsim muaj dlej muaj aav Nwg tsim muaj tsaj muaj txhu Tom qaab nwg txhaj tsim peb tuabneeg Ca kaav ibpuas tsaavyaam."
+            },
+            {
+                "song_id": 432,
                 "id": 3,
-                "content": "NPLAJTEB VAAJTSWV TSIMTSEG (20 NQAI)"
+                "content": "Vaajtswv Ntuj ca tuabneeg Nyob dlawb nyob dlo uasi Pub laajlim plaabplaw rua tuabneeg Kuas kaav tsajtxhu naagnoog"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 4,
-                "content": "Nplajteb Vaajtswv tsim tseg Txheejtshoj nyob thaus u lug Vaajtswv tsim tau lub nplajteb nuav Nwg tsim muaj fuab muaj cua Nwg tsim muaj dlej muaj aav Nwg tsim muaj tsaj muaj txhu Tom qaab nwg txhaj tsim peb tuabneeg Ca kaav ibpuas tsaavyaam."
+                "content": "Noj tsi txhawj naav tsi txob Tabsis neeg tsi sawmzoo Ibnub dlaab Ntxwjnyoog tuaj ntxag Tuabneeg moog noog Dlaab lug dlaag."
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 5,
-                "content": "Vaajtswv Ntuj ca tuabneeg Nyob dlawb nyob dlo uasi Pub laajlim plaabplaw rua tuabneeg Kuas kaav tsajtxhu naagnoog Noj tsi txhawj naav tsi txob Tabsis neeg tsi sawmzoo Ibnub dlaab Ntxwjnyoog tuaj ntxag Tuabneeg moog noog Dlaab lug dlaag."
+                "content": "Vaajtswv txhaj ntab tuabneeg Tawm ntawm lub chaw tau zoo Tuabneeg txhaj moog tau txujkev khwv Moog tau kev mob kev nkeeg"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 6,
-                "content": "Vaajtswv txhaj ntab tuabneeg Tawm ntawm lub chaw tau zoo Tuabneeg txhaj moog tau txujkev khwv Moog tau kev mob kev nkeeg Moog tau kev pluj kev tuag Moog tau kev ntsoj kev ntsuag Tuabneeg txhaj ua lub neej quajntsuag Rua huv lub nplajteb nuav."
+                "content": "Moog tau kev pluj kev tuag Moog tau kev ntsoj kev ntsuag Tuabneeg txhaj ua lub neej quajntsuag Rua huv lub nplajteb nuav."
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 7,
-                "content": "Peb nyob Vaajtswv thaaj-aav Nwg tsim qoob tsim loo tseg Nwg ua lugnaag rua huv thaaj-aav Yug txoojqoob txhaj txawj hlaav Nwg ua tshaavntuj tuaj zab Txoojqoob txhaj le txawj sav Peb tuabneeg txhaj tau noj tau haus Txhaj le muaj txujsa nyob."
+                "content": "Peb nyob Vaajtswv thaaj-aav Nwg tsim qoob tsim loo tseg Nwg ua lugnaag rua huv thaaj-aav Yug txoojqoob txhaj txawj hlaav"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 8,
-                "content": "Vaajtswv qha kuas tuabneeg Txawj tutub tukiv tseg Tuabneeg txhaj fuamvaam puv nplajteb Puavleej yog ib tsaavneeg Neeg ua txhum twv Vaajtswv Vaajtswv txhaj foom kuas neeg Has lug sischaab sischaws Txhaj le moog ua ntau tsaav tuabneeg."
+                "content": "Nwg ua tshaavntuj tuaj zab Txoojqoob txhaj le txawj sav Peb tuabneeg txhaj tau noj tau haus Txhaj le muaj txujsa nyob."
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 9,
-                "content": "Vaajtswv tsim nplajteb tseg Ntau tam ntautxheeb xyoo lug Vaajtswv tsim tau lub nplajteb nuav Muaj roob muaj haav txhaistsheev Nwg tsim muaj xyoob muaj ntoo Nwg tsim tseg rua peb siv Peb ua noj ua haus puv nplajteb Tu tsajtxhu puv tojpeg."
+                "content": "Vaajtswv qha kuas tuabneeg Txawj tutub tukiv tseg Tuabneeg txhaj fuamvaam puv nplajteb Puavleej yog ib tsaavneeg"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 10,
-                "content": "Nplajteb mas zoo kawgnkaus Tabsis yug sav tsintev Yug muaj noj haus muaj npoj muaj luag Los yug yuav tuag yug moog Yuav tseg kwvtij kwvluag Hab yuav tseg txij tseg nkawm Tseg nam tseg txiv tseg tub tseg kiv Tseg ca ua ntsoj ua ntsuag."
+                "content": "Neeg ua txhum twv Vaajtswv Vaajtswv txhaj foom kuas neeg Has lug sischaab sischaws Txhaj le moog ua ntau tsaav tuabneeg."
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 11,
-                "content": "Vim yog lub nplajteb nuav Tsi yog peb teb peb chaw Nplajteb yog peb lub chaw ua qhua Peb txhaj yuav rov qaab moog Peb tebchaws nyob sau ntuj Sau muaj zoo vaaj zoo tsev Yog peb rov moog nyob lawm sau ntuj Mas yuav tsi laug tsi tuag."
+                "content": "Vaajtswv tsim nplajteb tseg Ntau tam ntautxheeb xyoo lug Vaajtswv tsim tau lub nplajteb nuav Muaj roob muaj haav txhaistsheev"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 12,
-                "content": "Tabsis nplajteb tuabneeg Tuaj rua huv nplajteb nuav Ua dlaab ua qhua ua txaug ua txhum Yog yug tsi tso dlaab tseg Hab tsi tig nrhav Vaajtswv Yug tsi paub moog sau ntuj Txug nub plujtuag dlaab yuav lug tog Coj yug moog chaw tsimtxom."
+                "content": "Nwg tsim muaj xyoob muaj ntoo Nwg tsim tseg rua peb siv Peb ua noj ua haus puv nplajteb Tu tsajtxhu puv tojpeg."
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 13,
-                "content": "Peb ua ibsim neej khuav Rua huv lub nplajteb nuav Peb ua neej nyob tsi ntev pistsawg Yuavtsum xaavtxhij xaavtxhua Yug yuavtsum xaiv kev taug Vim yog muaj ob txujkev Ib txuj yog Vaajtswv Ntuj txujkev Yog yug moog yuav tau zoo."
+                "content": "Nplajteb mas zoo kawgnkaus Tabsis yug sav tsintev Yug muaj noj haus muaj npoj muaj luag Los yug yuav tuag yug moog"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 14,
-                "content": "Ib txuj yog Ntxwjnyoog kev Yog leejtwg tau taug moog Mas yuav moog txug ntujtxag tebtsaus Yuav raug nyajtshaib yoonqhes Txomnyem los pheej tsi tuag Tsi muaj tug paab yug dlim Yug yuav tiv suavtawg kub moog le Taagnrho ibtxhab ibtxhis."
+                "content": "Yuav tseg kwvtij kwvluag Hab yuav tseg txij tseg nkawm Tseg nam tseg txiv tseg tub tseg kiv Tseg ca ua ntsoj ua ntsuag."
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 15,
-                "content": "Thaus ntawd maam le paub tas Plujtuag tsi yog ua si Yeejyog txujkev moog plujmuag ntshis Cev nqaj yuav lwj ua aav Taagnrho ibtxhab ibtxhis Tsi txawj rovlug tshwmsim Ntsujplig yuav moog nrug dlaabntxoog nyob Nyajtshaib yoonqhes ibtxhis."
+                "content": "Vim yog lub nplajteb nuav Tsi yog peb teb peb chaw Nplajteb yog peb lub chaw ua qhua Peb txhaj yuav rov qaab moog"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 16,
-                "content": "Muaj coobleej ncu tsi txug Nub kws yuav pluj yuav tuag Puab tseem rau sab moog npaaj lub neej Kuas zoo heev dlua nraagntej Puab tsi xaav tas yuav tuag Kws yuav tseg tsaj tseg txhu Tseg nyaj tseg kub tseg vaaj tseg tsev Tseg laj-a tebchaws ca."
+                "content": "Peb tebchaws nyob sau ntuj Sau muaj zoo vaaj zoo tsev Yog peb rov moog nyob lawm sau ntuj Mas yuav tsi laug tsi tuag."
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 17,
-                "content": "Thaus kws yug tshwm sim lug Yug nam yug yug labqaab Yug coj tsitau yaam dlaabtsi lug Nub kws yug yuav rov moog Yug yuav rov moog labqaab Nqaa tsitau dlaabtsi moog Yug naav roogtsho los yuav lwj taag Yug nqaj yuav ntxeev ua aav."
+                "content": "Tabsis nplajteb tuabneeg Tuaj rua huv nplajteb nuav Ua dlaab ua qhua ua txaug ua txhum Yog yug tsi tso dlaab tseg"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 18,
-                "content": "Peb nplajteb nplajnraag neeg Ua lub nam neej dligmuag Ua lub neej saib tsi pum tomntej Sov yuav zoo los yuav phem Vaajtswv Ntuj lossij hlub Nwg txhaj le tau lug qha Suavdlawg cale lug ntseeg Yexus Tsintev nplajteb yuav kawg."
+                "content": "Hab tsi tig nrhav Vaajtswv Yug tsi paub moog sau ntuj Txug nub plujtuag dlaab yuav lug tog Coj yug moog chaw tsimtxom."
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 19,
-                "content": "Nplajteb tsuas nyob ibntus Vaajtswv yuav muab rhuav moog Tsi ntev nplajteb tub yuav plujmoog Mej tseem vaam tug dlaabtsi Mej tseem ntausteb txeebchaw Mej tseem npaaj nyajkub tseg Mej tsi paub tas nub kws ntuj kawg Nyajtxag yuav nrug aav ndlwg."
+                "content": "Peb ua ibsim neej khuav Rua huv lub nplajteb nuav Peb ua neej nyob tsi ntev pistsawg Yuavtsum xaavtxhij xaavtxhua"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 20,
-                "content": "Peb simneej nyob nplajteb Peb nyob uanpoj ualuag Ibnub peb yuav sisncaim taag moog Leejtwg yuav moog txujtwg Tsi ntseeg moog nyob ntujtawg Ntseeg Yexus nyob Ceebtsheej Puab yuav moog plhis dlua lub cev tshab Tsi muaj mob tsi txawj tuag."
+                "content": "Yug yuavtsum xaiv kev taug Vim yog muaj ob txujkev Ib txuj yog Vaajtswv Ntuj txujkev Yog yug moog yuav tau zoo."
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 21,
-                "content": "Thaus moog txug Ceebtsheej ntuj Cov nyob moog ntsib cov tuag Mas yuav sisnug txujkev ntsojntsuag Kws thaus u nyob nplajteb Namtxiv tuag tseg mivnyuas Mivnyuas tuag tseg namtxiv Tej txijnkawm tug tuag tseg tug ca Puab tuavteg sisqawg quaj."
+                "content": "Ib txuj yog Ntxwjnyoog kev Yog leejtwg tau taug moog Mas yuav moog txug ntujtxag tebtsaus Yuav raug nyajtshaib yoonqhes Txomnyem los pheej tsi tuag"
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 22,
-                "content": "Thaus ntawd mas Vaajtswv Ntuj Yuav cevteg lug plhw puab Vaajtswv yuav so puab lub kuamuag Kuas tu nrho moog ibtxhis Yuav tsi muaj kev plujtuag Yuav tsi muaj kev ntsojntsuag Txij nuav moog cov kws ntseeg Vaajtswv Yuav nyob uake ibtxhis."
+                "content": "Tsi muaj tug paab yug dlim Yug yuav tiv suavtawg kub moog le Taagnrho ibtxhab ibtxhis."
             },
             {
-                "song_id": 431,
+                "song_id": 432,
                 "id": 23,
-                "content": "Kev plujtuag aav luajdlaag Hab tej tojroob hauvpeg Yuav quas tsitau yug simneej tu Yug yuav uanpoj ualuag Ywjkab ywjkhw ibtxhis Yuav tsi muaj chaw sisncaim Vaajtswv yuav ua suavdlawg Vaajntxwv Tswjteb kaavchaws ibtxhis."
+                "content": "Thaus ntawd maam le paub tas Plujtuag tsi yog ua si Yeejyog txujkev moog plujmuag ntshis Cev nqaj yuav lwj ua aav"
+            },
+            {
+                "song_id": 432,
+                "id": 24,
+                "content": "Taagnrho ibtxhab ibtxhis Tsi txawj rovlug tshwmsim Ntsujplig yuav moog nrug dlaabntxoog nyob Nyajtshaib yoonqhes ibtxhis."
+            },
+            {
+                "song_id": 432,
+                "id": 25,
+                "content": "Muaj coobleej ncu tsi txug Nub kws yuav pluj yuav tuag Puab tseem rau sab moog npaaj lub neej Kuas zoo heev dlua nraagntej"
+            },
+            {
+                "song_id": 432,
+                "id": 26,
+                "content": "Puab tsi xaav tas yuav tuag Kws yuav tseg tsaj tseg txhu Tseg nyaj tseg kub tseg vaaj tseg tsev Tseg laj-a tebchaws ca."
+            },
+            {
+                "song_id": 432,
+                "id": 27,
+                "content": "Thaus kws yug tshwm sim lug Yug nam yug yug labqaab Yug coj tsitau yaam dlaabtsi lug Nub kws yug yuav rov moog"
+            },
+            {
+                "song_id": 432,
+                "id": 28,
+                "content": "Yug yuav rov moog labqaab Nqaa tsitau dlaabtsi moog Yug naav roogtsho los yuav lwj taag Yug nqaj yuav ntxeev ua aav."
+            },
+            {
+                "song_id": 432,
+                "id": 29,
+                "content": "Peb nplajteb nplajnraag neeg Ua lub nam neej dligmuag Ua lub neej saib tsi pum tomntej Sov yuav zoo los yuav phem"
+            },
+            {
+                "song_id": 432,
+                "id": 30,
+                "content": "Vaajtswv Ntuj lossij hlub Nwg txhaj le tau lug qha Suavdlawg cale lug ntseeg Yexus Tsintev nplajteb yuav kawg."
+            },
+            {
+                "song_id": 432,
+                "id": 31,
+                "content": "Nplajteb tsuas nyob ibntus Vaajtswv yuav muab rhuav moog Tsi ntev nplajteb tub yuav plujmoog Mej tseem vaam tug dlaabtsi"
+            },
+            {
+                "song_id": 432,
+                "id": 32,
+                "content": "Mej tseem ntausteb txeebchaw Mej tseem npaaj nyajkub tseg Mej tsi paub tas nub kws ntuj kawg Nyajtxag yuav nrug aav ndlwg."
+            },
+            {
+                "song_id": 432,
+                "id": 33,
+                "content": "Peb simneej nyob nplajteb Peb nyob uanpoj ualuag Ibnub peb yuav sisncaim taag moog Leejtwg yuav moog txujtwg"
+            },
+            {
+                "song_id": 432,
+                "id": 34,
+                "content": "Tsi ntseeg moog nyob ntujtawg Ntseeg Yexus nyob Ceebtsheej Puab yuav moog plhis dlua lub cev tshab Tsi muaj mob tsi txawj tuag."
+            },
+            {
+                "song_id": 432,
+                "id": 35,
+                "content": "Thaus moog txug Ceebtsheej ntuj Cov nyob moog ntsib cov tuag Mas yuav sisnug txujkev ntsojntsuag Kws thaus u nyob nplajteb"
+            },
+            {
+                "song_id": 432,
+                "id": 36,
+                "content": "Namtxiv tuag tseg mivnyuas Mivnyuas tuag tseg namtxiv Tej txijnkawm tug tuag tseg tug ca Puab tuavteg sisqawg quaj."
+            },
+            {
+                "song_id": 432,
+                "id": 37,
+                "content": "Thaus ntawd mas Vaajtswv Ntuj Yuav cevteg lug plhw puab Vaajtswv yuav so puab lub kuamuag Kuas tu nrho moog ibtxhis"
+            },
+            {
+                "song_id": 432,
+                "id": 38,
+                "content": "Yuav tsi muaj kev plujtuag Yuav tsi muaj kev ntsojntsuag Txij nuav moog cov kws ntseeg Vaajtswv Yuav nyob uake ibtxhis."
+            },
+            {
+                "song_id": 432,
+                "id": 39,
+                "content": "Kev plujtuag aav luajdlaag Hab tej tojroob hauvpeg Yuav quas tsitau yug simneej tu Yug yuav uanpoj ualuag"
+            },
+            {
+                "song_id": 432,
+                "id": 40,
+                "content": "Ywjkab ywjkhw ibtxhis Yuav tsi muaj chaw sisncaim Vaajtswv yuav ua suavdlawg Vaajntxwv Tswjteb kaavchaws ibtxhis."
             }
         ]
     }
