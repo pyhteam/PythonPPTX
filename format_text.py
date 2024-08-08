@@ -16,7 +16,7 @@ def format_text(data):
                 current_section = ""
         elif stripped_line.isdigit() or (stripped_line and stripped_line[0].isdigit() and stripped_line[1] == '.'):
             if current_section:
-                formatted_data += current_section.strip() + "\n\n"
+                formatted_data += current_section.strip() + "\n\n" 
                 current_section = stripped_line + "\n"
             else:
                 current_section = stripped_line + "\n"

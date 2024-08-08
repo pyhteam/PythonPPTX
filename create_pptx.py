@@ -6,7 +6,6 @@ from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.enum.text import PP_ALIGN, MSO_AUTO_SIZE  # Add MSO_AUTO_SIZE here
 from pptx.dml.color import RGBColor
-import textwrap
 import io
 from PIL import Image
 
