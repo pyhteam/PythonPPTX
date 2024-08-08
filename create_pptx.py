@@ -65,7 +65,7 @@ class PowerPointHelper:
         # add Content
         content = f"{verse['label']}.  {verse['content']}"
         textbox = slide.shapes.add_textbox(
-            Inches(0.2), Inches(1), Inches(9), Inches(8)  # Adjust height to allow for expansion
+            Inches(0.2), Inches(1), Inches(9.1), Inches(6)  # Adjust height to allow for expansion
         )
         text_frame = textbox.text_frame
         text_frame.word_wrap = True

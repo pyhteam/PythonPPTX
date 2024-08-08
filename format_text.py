@@ -61,6 +61,7 @@ def format_text_to_json(data):
             if current_song:
                 current_song["verses"].append({
                     "song_id": current_song["id"],
+                    "id": verse_id,
                     "content": stripped_line
                 })
                 verse_id += 1
@@ -72,9 +73,11 @@ def format_text_to_json(data):
 
 # run main
 if __name__ == "__main__":
-    filePath ="D:\\src\\PythonPPTX\\data\\Cov Ntseeg Yexus Phoo Nkauj - Hmoob Dawb.txt"
+    filePath ="data\\Cov Ntseeg Yexus Phoo Nkauj - Hmoob Ntsuab.txt"
+    fileName =""
     try:
         with open(filePath, 'r', encoding='utf-8') as file:
+            fileName = file.name
             data = file.read()
     except UnicodeDecodeError:
         with open(filePath, 'r', encoding='latin1') as file:
@@ -82,14 +85,14 @@ if __name__ == "__main__":
 
     formatted_text = format_text(data)
     # save formatted text to file
-    with open("formatted_text.txt", "w", encoding='utf-8') as file:
+    with open(fileName+"_format.txt", "w", encoding='utf-8') as file:
         file.write(formatted_text)
-        print("Formatted text saved to 'data\\formatted_text.txt' successfully.")
+        print("Formatted text saved to successfully.")
     
     # save formatted text to JSON
     formatted_json = format_text_to_json(formatted_text)
-    with open("formatted_text.json", "w", encoding='utf-8') as file:
+    with open(fileName+"_format.json", "w", encoding='utf-8') as file:
         file.write(formatted_json)
-        print("Formatted text saved to 'data\\formatted_text.json' successfully.")
+        print("Formatted json saved to successfully.")
     print("All done!")
 
