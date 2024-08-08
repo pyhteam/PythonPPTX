@@ -66,16 +66,16 @@ class PowerPointHelper:
         # add Content
         content = f"{verse['label']}.  {verse['content']}"
         textbox = slide.shapes.add_textbox(
-            Inches(0.2),
-            Inches(1),
-            Inches(9.1),
+            Inches(0),
+            Pt(100),
+            Inches(10),
             Inches(6),  # Adjust height to allow for expansion
         )
         text_frame = textbox.text_frame
         text_frame.word_wrap = True
-        text_frame.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE  # Enable auto-sizing
+        text_frame.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE # Enable auto-sizing
 
-        p = text_frame.add_paragraph()
+        p = text_frame.paragraphs[0]
         p.text = content
         p.font.name = font_family
         p.font.size = font_size
@@ -86,27 +86,30 @@ class PowerPointHelper:
         p.alignment = text_align
 
         #  add Title
-
+        fontSize = Pt(40)
         if type_show == 0:
             title = f"{self.show_pptx['BookName']} {self.show_pptx['ChapterNumber']}:{verse['label']}"
+            fontSize= font_size
+            
         if type_show == 1:
             title = f"{self.show_pptx['ChapterNumber']} {self.show_pptx['BookName']}"
+            fontSize = Pt(32)
 
         textbox = slide.shapes.add_textbox(
-            Inches(1), Inches(-0.3), Inches(8), Inches(1)
+            Inches(0), Inches(0), Inches(10), Pt(50)
         )
         text_frame.word_wrap = True
         text_frame.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE
         text_frame = textbox.text_frame
-        p = text_frame.add_paragraph()
+        p = text_frame.paragraphs[0]
         p.text = title
         p.font.name = font_family
-        p.font.size = Pt(40)
+        p.font.size = fontSize
         p.font.bold = font_style in [1, 3, 5, 7]
         p.font.italic = font_style in [2, 3, 6, 7]
         p.font.underline = font_style in [4, 5, 6, 7]
         p.font.color.rgb = RGBColor(150, 150, 57)
-        p.alignment = PP_ALIGN.CENTER
+        p.alignment = text_align
 
     def set_background(self, slide):
         if (
