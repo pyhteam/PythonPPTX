@@ -1,0 +1,4 @@
+from export_pptx.app import main
+
+if __name__ == "__main__":
+    main()

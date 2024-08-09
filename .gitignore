@@ -1,7 +1,0 @@
-
-.vs/
-.vscode/
-node_modules/
-dist/
-build/
-*.spec
