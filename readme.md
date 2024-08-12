@@ -1,6 +1,3 @@
-## build app
-pyinstaller --onefile create_pptx.py
-
-
-## Build File Json Nhạc Thánh
-python 
+## build lib to exe
+pip install -r requirements.txt
+python setup.py build
