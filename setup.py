@@ -15,5 +15,5 @@ setup(
     version = "0.1",
     description = "Library support export pptx",
     options = {"build_exe": build_exe_options},
-    executables = [Executable("create_pptx.py", base=base)],
+    executables = [Executable("buil_to_exe.py", base=base)],
 )
