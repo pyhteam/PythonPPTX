@@ -7,7 +7,7 @@ build_exe_options = {"packages": [], "excludes": []}
 
 # Base setting for Windows
 base = None
-if sys.platform == "win32":
+if sys.platform == "win32" or sys.platform == "win64":
     base = "Win32GUI"  # Use "Win32GUI" if your script is a GUI application
 
 setup(
