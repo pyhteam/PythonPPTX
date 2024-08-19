@@ -73,7 +73,7 @@ class PowerPointHelper:
         )
         text_frame = textbox.text_frame
         text_frame.word_wrap = True
-        text_frame.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE # Enable auto-sizing
+        text_frame.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE  # Enable auto-sizing
 
         p = text_frame.paragraphs[0]
         p.text = content
@@ -89,15 +89,13 @@ class PowerPointHelper:
         fontSize = Pt(40)
         if type_show == 0:
             title = f"{self.show_pptx['BookName']} {self.show_pptx['ChapterNumber']}:{verse['label']}"
-            fontSize= font_size
-            
+            fontSize = font_size
+
         if type_show == 1:
             title = f"{self.show_pptx['ChapterNumber']} {self.show_pptx['BookName']}"
             fontSize = Pt(32)
 
-        textbox = slide.shapes.add_textbox(
-            Inches(0), Inches(0), Inches(10), Pt(50)
-        )
+        textbox = slide.shapes.add_textbox(Inches(0), Inches(0), Inches(10), Pt(50))
         text_frame.word_wrap = True
         text_frame.auto_size = MSO_AUTO_SIZE.TEXT_TO_FIT_SHAPE
         text_frame = textbox.text_frame
@@ -145,35 +143,42 @@ class PowerPointHelper:
 if __name__ == "__main__":
     print("Creating PowerPoint presentation...")
     try:
-        # Read input JSON data from stdin
-        print("Reading input data...")
-        input_data = sys.stdin.read()
+        tempPath = os.environ.get("TEMP")
+        if not tempPath:
+            print("No temp path provided")
+            sys.exit(1)
+        show_pptx_json = os.path.join(tempPath, "show_pptx.json")
+        if not os.path.exists(show_pptx_json):
+            print("No input file found")
+            sys.exit(1)
+        with open(show_pptx_json, "r") as file:
+            input_data = file.read()
         if not input_data:
             print("No input provided")
         else:
-            # Proceed with the rest of your code
-            pass
-        print("Input data: ", input_data)
-        print("Input data read successfully.")
-        show_pptx = json.loads(input_data)
-        print("Converted JSON data to Python object.")
+            print("Input data: ", input_data)
+            show_pptx = json.loads(input_data)
 
-        helper = PowerPointHelper(show_pptx)
-        print("Created PowerPoint presentation.")
-
-        output = helper.create_presentation()
-        print("Presentation created successfully.")
-        with open(show_pptx["FilePath"], "wb") as f:
-            f.write(output.getbuffer())
-        print(f"Presentation saved to {show_pptx['FilePath']}")
-        os.startfile(show_pptx["FilePath"])
-        print("Presentation opened successfully.")
+            helper = PowerPointHelper(show_pptx)
+            print("Created PowerPoint presentation.")
+            output = helper.create_presentation()
+            with open(show_pptx["FilePath"], "wb") as f:
+                f.write(output.getbuffer())
+            print(f"Presentation saved to {show_pptx['FilePath']}")
+            os.startfile(show_pptx["FilePath"], "open")
+            print("Presentation opening....!")
 
     except Exception as e:
-        print(f"An error occurred: {e}", file=sys.stderr)
-        # log error to file for debugging
-        with open("error_py.log", "a") as f:
-            f.write(f"[ERROR] {datetime.datetime.now()}: An error occurred: {e}\n")
-        # exit application with error code
+        print(f"An error occurred: {e}")
+        # write error to current directory
+        with open("error.txt", "w") as f:
+            f.write(str(e))
 
-    sys.exit(1)
+        sys.exit(1)
+    finally:
+        # remove temp file
+        if os.path.exists(show_pptx_json):
+            os.remove(show_pptx_json)
+            print("Temp file removed.")
+        print("Exiting...")
+        sys.exit(0)

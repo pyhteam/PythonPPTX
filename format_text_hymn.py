@@ -59,7 +59,7 @@ def format_text_to_json(data):
             verse_id = 1
         else:
             if current_song:
-                current_song["verses"].append({
+                current_song["verses"].append({ 
                     "song_id": current_song["id"],
                     "id": verse_id,
                     "content": stripped_line
